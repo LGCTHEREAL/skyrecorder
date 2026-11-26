@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171C2E"/>
+      <stop offset="1" stop-color="#232A44"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5F8FC"/>
+      <stop offset="1" stop-color="#C7D0DD"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E2436"/>
+      <stop offset="1" stop-color="#0D1019"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="166" fill="url(#metal)"/>
+  <circle cx="256" cy="256" r="140" fill="url(#bezel)"/>
+  <circle cx="256" cy="256" r="110" fill="#1DB954"/>
+  <g stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" fill="none">
+    <path d="M 175 234 A 113.3 113.3 0 0 1 337 234"/>
+    <path d="M 184 271 A 99.2 99.2 0 0 1 328 271"/>
+    <path d="M 197 307 A 78.4 78.4 0 0 1 315 307"/>
+  </g>
+  <ellipse cx="216" cy="198" rx="36" ry="17" fill="#FFFFFF" opacity="0.32" transform="rotate(-42 216 198)"/>
+  <circle cx="398" cy="394" r="46" fill="#FF453A" stroke="#171C2E" stroke-width="14"/>
+</svg>
